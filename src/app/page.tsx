@@ -4,7 +4,7 @@ import { useState, useRef, KeyboardEvent } from 'react'
 import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent } from "@/components/ui/card"
-import { Check, Copy, Trash, Edit, X } from 'lucide-react'
+import { Check, Copy, Trash, Edit } from 'lucide-react'
 
 interface SavedText {
   id: number;
